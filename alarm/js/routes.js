@@ -1,23 +1,15 @@
 /**
  * Created by Shivam Mathur on 22-06-2015.
  */
-appname.config(function ($routeProvider) {
+app.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: '/main',
-            controller: 'main'
+            templateUrl: 'views/view1.html',
+            controller: 'view1ctrl'
         })
-        .when('/input', {
-            templateUrl: '/input',
-            controller: 'input'
-        })
-        .when('/results', {
-            templateUrl: '/results',
-            controller: 'results'
-        })
-        .when('/browse', {
-            templateUrl: '/browse',
-            controller: 'browse'
+        .when('/view2',{
+            templateUrl: 'views/view2.html',
+            controller: 'view2ctrl'
         })
         .otherwise({
             redirectTo: '/'
