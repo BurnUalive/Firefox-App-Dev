@@ -34,7 +34,7 @@ app.controller('view1ctrl',function($scope){
                 console.log('data: ' + JSON.stringify(alarm.data));
             });
         };
-
+  
         request.onerror = function () {
             console.log("An error occurred: " + this.error.name);
         };
