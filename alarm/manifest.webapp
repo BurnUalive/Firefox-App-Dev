@@ -12,5 +12,14 @@
     "name": "Shivam Mathur",
     "url": "http://example.com",
     "email": "shivam.mathurg10@gmail.com"
-  }
+  },
+  "fullscreen": true,
+  "permissions": {
+      "alarms": {
+        "description": "Required to schedule alarms"
+      }
+    },
+    "messages": [
+      { "alarm": "/index.html" }
+    ]
 }
